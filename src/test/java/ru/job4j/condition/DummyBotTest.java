@@ -6,6 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class DummyBotTest {
     @Test
     public void whenGreetBot() {
+
         String in = "Hi, Bot.";
         String result = DummyBot.answer(in);
         String expected = "Hi, SmartAss.";
@@ -14,6 +15,7 @@ public class DummyBotTest {
 
     @Test
     public void whenByeBot() {
+
         String in = "Bye.";
         String result = DummyBot.answer(in);
         String expected = "See you later.";
@@ -22,6 +24,7 @@ public class DummyBotTest {
 
     @Test
     public void whenUnknownBot() {
+
         String in = "Can you add two plus two?";
         String result = DummyBot.answer(in);
         String expected = "I don't know. Please, ask another question.";

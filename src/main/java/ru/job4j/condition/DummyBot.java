@@ -13,6 +13,7 @@ public class DummyBot {
     }
 
     public static void main(String[] args) {
+
         String rsl = DummyBot.answer("Hi, Bot.");
         System.out.println(rsl);
         rsl = DummyBot.answer("Bye.");
